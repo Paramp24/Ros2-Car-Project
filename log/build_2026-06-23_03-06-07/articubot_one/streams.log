@@ -1,0 +1,52 @@
+[0.006s] Invoking command in '/home/parallels/Tutorial/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/parallels/Tutorial/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/parallels/Tutorial/install/articubot_one
+[0.046s] -- The C compiler identification is GNU 13.3.0
+[0.080s] -- The CXX compiler identification is GNU 13.3.0
+[0.087s] -- Detecting C compiler ABI info
+[0.132s] -- Detecting C compiler ABI info - done
+[0.137s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.137s] -- Detecting C compile features
+[0.137s] -- Detecting C compile features - done
+[0.141s] -- Detecting CXX compiler ABI info
+[0.186s] -- Detecting CXX compiler ABI info - done
+[0.191s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.191s] -- Detecting CXX compile features
+[0.192s] -- Detecting CXX compile features - done
+[0.194s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.270s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.311s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.400s] -- Configuring done (0.4s)
+[0.402s] -- Generating done (0.0s)
+[0.403s] -- Build files have been written to: /home/parallels/Tutorial/build/articubot_one
+[0.408s] Invoked command in '/home/parallels/Tutorial/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/parallels/Tutorial/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/parallels/Tutorial/install/articubot_one
+[0.410s] Invoking command in '/home/parallels/Tutorial/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/parallels/Tutorial/build/articubot_one -- -j4 -l4
+[0.436s] Invoked command in '/home/parallels/Tutorial/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/parallels/Tutorial/build/articubot_one -- -j4 -l4
+[0.444s] Invoking command in '/home/parallels/Tutorial/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/parallels/Tutorial/build/articubot_one
+[0.449s] -- Install configuration: ""
+[0.449s] -- Execute custom install script
+[0.450s] -- Symlinking: /home/parallels/Tutorial/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[0.455s] -- Symlinking: /home/parallels/Tutorial/install/articubot_one/share/articubot_one/description/camera.xacro
+[0.459s] -- Symlinking: /home/parallels/Tutorial/install/articubot_one/share/articubot_one/description/gazebo_plugin.xacro
+[0.463s] -- Symlinking: /home/parallels/Tutorial/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[0.467s] -- Symlinking: /home/parallels/Tutorial/install/articubot_one/share/articubot_one/description/lidar.xacro
+[0.471s] -- Symlinking: /home/parallels/Tutorial/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[0.476s] -- Symlinking: /home/parallels/Tutorial/install/articubot_one/share/articubot_one/description/robot_urdf.xacro
+[0.482s] -- Symlinking: /home/parallels/Tutorial/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[0.487s] -- Symlinking: /home/parallels/Tutorial/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[0.491s] -- Symlinking: /home/parallels/Tutorial/install/articubot_one/share/articubot_one/worlds/cone.sdf
+[0.500s] -- Symlinking: /home/parallels/Tutorial/install/articubot_one/lib/articubot_one/obstacle_avoidance.py
+[0.500s] -- Symlinking: /home/parallels/Tutorial/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[0.505s] -- Symlinking: /home/parallels/Tutorial/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[0.521s] -- Symlinking: /home/parallels/Tutorial/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[0.526s] -- Symlinking: /home/parallels/Tutorial/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[0.531s] -- Symlinking: /home/parallels/Tutorial/install/articubot_one/share/articubot_one/environment/path.sh
+[0.535s] -- Symlinking: /home/parallels/Tutorial/install/articubot_one/share/articubot_one/environment/path.dsv
+[0.539s] -- Symlinking: /home/parallels/Tutorial/install/articubot_one/share/articubot_one/local_setup.bash
+[0.544s] -- Symlinking: /home/parallels/Tutorial/install/articubot_one/share/articubot_one/local_setup.sh
+[0.550s] -- Symlinking: /home/parallels/Tutorial/install/articubot_one/share/articubot_one/local_setup.zsh
+[0.552s] -- Symlinking: /home/parallels/Tutorial/install/articubot_one/share/articubot_one/local_setup.dsv
+[0.557s] -- Symlinking: /home/parallels/Tutorial/install/articubot_one/share/articubot_one/package.dsv
+[0.561s] -- Symlinking: /home/parallels/Tutorial/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[0.566s] -- Symlinking: /home/parallels/Tutorial/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[0.573s] -- Symlinking: /home/parallels/Tutorial/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[0.589s] -- Symlinking: /home/parallels/Tutorial/install/articubot_one/share/articubot_one/package.xml
+[0.599s] Invoked command in '/home/parallels/Tutorial/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/parallels/Tutorial/build/articubot_one
